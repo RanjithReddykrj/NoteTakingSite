@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+
+<body>
+ 
+  
+  <div class="navbar">
+     <div class="icon" style="font-size: 50px;color:#B0B7F5">
+    <i class="uil uil-notes"></i>
+    </div>
+    <div class="headtitle">
+     <h1>Todo List</h1> 
+    </div>
+  <nav>
+    <ul>
+      <li><a href="#" >Home</a></li>
+      <li><a href="#" >About</a></li>
+      <li><a href="#" >Contact</a></li> 
+
+      
+      <!-- hireme button -->
+      <button data-text="Awesome" class="button" id="hireme">
+      <span class="actual-text">&nbsp;Hire_Me&nbsp;</span>
+      <span class="hover-text" aria-hidden="true">&nbsp;Hire_Me&nbsp;</span>
+      </button>
+    </ul>
+  </nav>
+    
+  </div>
+  <!-- navbarfinished -->
+  <!-- popupbox started -->
+  <div class="popup-box" > 
+      <div class="popup">
+          <div class="content">
+           <header>
+            <p></p>
+            <i class="uil uil-times"></i>
+           </header>
+           <from action="#" >
+             <div class="row title">
+            <label for="in1">Title</label>
+            <input class="inputtitle" id="in1" type="text" spellcheck="false" placeholder="Enter Your Task Title">
+             </div>
+            <div class="row discription">
+            <label for="in2">Discription</label>
+            <textarea id="in2" class="inputdisc" type="text" spellcheck="false" placeholder="Enter Your Task discription"></textarea>
+             </div> 
+              <button></button>
+           </from>
+          
+          </div>    
+      </div>
+  </div> 
+ <div class="wrappers"></div>
+  <div class="wrapper">
+    <li class="add-box" id="add">
+      <div class="icon"><i class="uil uil-plus"></i></div>
+      <p>Add new Task</p>
+    </li>
+    <li class="add-box" id="remove">
+      <div class="icon"><i class="uil uil-times"></i></div>
+      <p>Delete All</p>
+    </li>
+  </div>
+  <div class="message">
+    <p></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
